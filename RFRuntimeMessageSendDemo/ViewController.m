@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Man.h"
+#import "Woman.h"
+#import "Kids.h"
 
 @interface ViewController ()
 
@@ -16,7 +20,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //1.动态添加方法
+    [self resolveInstanceMethodTest];
+    //2.将方法转给其他类处理
+    [self forwardingTargetForSelectorTest];
+//    //3.消息转发
+    [self forwardingMessageTest];
+    
+    //以上3步全部走完都没有处理某个消息 那么将会抛出异常
+}
+//1.动态添加方法
+-(void)resolveInstanceMethodTest{
+    [[[Person alloc]init] performSelector:@selector(eatFood)];
+}
+
+//2.将方法转给其他类处理
+-(void)forwardingTargetForSelectorTest{
+    [[[Man alloc]init] washClothes];
+//    [[[Man alloc]init] performSelector:@selector(washClothes)];
+}
+
+//3.消息转发
+-(void)forwardingMessageTest{
+    [[[Kids alloc] init] playGame];
+
+    NSString *message = [[[Kids alloc] init] buyWater];
+    NSLog(@"%@",message);
 }
 
 

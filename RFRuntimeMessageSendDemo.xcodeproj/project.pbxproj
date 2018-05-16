@@ -16,6 +16,11 @@
 		218BC41F20AC11B500216F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC41E20AC11B500216F72 /* main.m */; };
 		218BC42920AC11B500216F72 /* RFRuntimeMessageSendDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC42820AC11B500216F72 /* RFRuntimeMessageSendDemoTests.m */; };
 		218BC43420AC11B500216F72 /* RFRuntimeMessageSendDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC43320AC11B500216F72 /* RFRuntimeMessageSendDemoUITests.m */; };
+		218BC44320AC11EB00216F72 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC44220AC11EB00216F72 /* Person.m */; };
+		218BC44620AC120B00216F72 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC44520AC120B00216F72 /* Man.m */; };
+		218BC44920AC123900216F72 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BC44820AC123900216F72 /* Woman.m */; };
+		219B235620AC2669007E59B0 /* Kids.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B235520AC2669007E59B0 /* Kids.m */; };
+		219B235920AC2C5F007E59B0 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B235820AC2C5F007E59B0 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		218BC42F20AC11B500216F72 /* RFRuntimeMessageSendDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFRuntimeMessageSendDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		218BC43320AC11B500216F72 /* RFRuntimeMessageSendDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFRuntimeMessageSendDemoUITests.m; sourceTree = "<group>"; };
 		218BC43520AC11B500216F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218BC44120AC11EB00216F72 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		218BC44220AC11EB00216F72 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		218BC44420AC120B00216F72 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		218BC44520AC120B00216F72 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		218BC44720AC123900216F72 /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		218BC44820AC123900216F72 /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		219B235420AC2669007E59B0 /* Kids.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kids.h; sourceTree = "<group>"; };
+		219B235520AC2669007E59B0 /* Kids.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kids.m; sourceTree = "<group>"; };
+		219B235720AC2C5F007E59B0 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		219B235820AC2C5F007E59B0 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +123,16 @@
 				218BC40F20AC11B400216F72 /* ViewController.h */,
 				218BC41020AC11B400216F72 /* ViewController.m */,
 				218BC41220AC11B400216F72 /* Main.storyboard */,
+				218BC44120AC11EB00216F72 /* Person.h */,
+				218BC44220AC11EB00216F72 /* Person.m */,
+				218BC44420AC120B00216F72 /* Man.h */,
+				218BC44520AC120B00216F72 /* Man.m */,
+				218BC44720AC123900216F72 /* Woman.h */,
+				218BC44820AC123900216F72 /* Woman.m */,
+				219B235420AC2669007E59B0 /* Kids.h */,
+				219B235520AC2669007E59B0 /* Kids.m */,
+				219B235720AC2C5F007E59B0 /* Teacher.h */,
+				219B235820AC2C5F007E59B0 /* Teacher.m */,
 				218BC41820AC11B500216F72 /* Assets.xcassets */,
 				218BC41A20AC11B500216F72 /* LaunchScreen.storyboard */,
 				218BC41D20AC11B500216F72 /* Info.plist */,
@@ -265,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218BC44620AC120B00216F72 /* Man.m in Sources */,
 				218BC41120AC11B400216F72 /* ViewController.m in Sources */,
 				218BC41720AC11B400216F72 /* RFRuntimeMessageSendDemo.xcdatamodeld in Sources */,
+				218BC44320AC11EB00216F72 /* Person.m in Sources */,
+				219B235620AC2669007E59B0 /* Kids.m in Sources */,
 				218BC41F20AC11B500216F72 /* main.m in Sources */,
+				219B235920AC2C5F007E59B0 /* Teacher.m in Sources */,
+				218BC44920AC123900216F72 /* Woman.m in Sources */,
 				218BC40E20AC11B400216F72 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
